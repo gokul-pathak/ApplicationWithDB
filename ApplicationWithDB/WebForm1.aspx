@@ -19,7 +19,7 @@
     <label for="nameInput" class="form-label">Name</label>
     <input type="text" class="form-control" runat="server" id="nameInput" name="nameInput"/>
   </div>
-  <asp:button type="submit" runat="server" class="btn btn-primary" onclick="SubmitButton_Click"></asp:button>
+  <asp:button type="submit" runat="server" class="btn btn-primary" onclick="SubmitButton_Click" Text="Submit"></asp:button>
         </div>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [Table]"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server"></asp:SqlDataSource>

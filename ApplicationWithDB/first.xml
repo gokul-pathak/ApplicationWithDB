@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product id="1001">
+    <productName>3 in 1 coffee</productName>6.99<ProductPrice /></product>
+  <product id="2">
+    <productName>rabindra</productName>
+    <price>750b</price>
+  </product>
+</products>
